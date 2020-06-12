@@ -4,6 +4,8 @@
 // @category       Layer
 // @version        0.1.4.20170108.21732
 // @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
+// @updateURL      https://github.com/VE6SRV/iitc-plugins/raw/master/DroneRange.js
+// @downloadURL    https://github.com/VE6SRV/iitc-plugins/raw/master/DroneRange.js
 // @description    [iitc-2017-01-08-021732] Shows drone flight distance between portals
 // @include        https://*.ingress.com/intel*
 // @include        http://*.ingress.com/intel*
