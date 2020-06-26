@@ -2,11 +2,13 @@
 // @id             iitc-plugin-dronerange@ve6srv
 // @name           IITC plugin: dronerange
 // @category       Layer
-// @version        0.1.4.20170108.21732
-// @namespace      https://github.com/jonatkins/ingress-intel-total-conversion
+// @version        0.1
+// @namespace      https://github.com/VE6SRV/iitc-plugins
 // @updateURL      https://github.com/VE6SRV/iitc-plugins/raw/master/DroneRange.js
 // @downloadURL    https://github.com/VE6SRV/iitc-plugins/raw/master/DroneRange.js
-// @description    [iitc-2017-01-08-021732] Shows drone flight distance between portals
+// @homepageURL    https://gitbub.com/VE6SRV/iitc-plugins
+// @description    Shows drone flight distance between portals
+// @author         VE6SRV
 // @include        https://*.ingress.com/intel*
 // @include        http://*.ingress.com/intel*
 // @match          https://*.ingress.com/intel*
@@ -25,8 +27,8 @@ if(typeof window.plugin !== 'function') window.plugin = function() {};
 
 //PLUGIN AUTHORS: writing a plugin outside of the IITC build environment? if so, delete these lines!!
 //(leaving them in place might break the 'About IITC' page or break update checks)
-plugin_info.buildName = 'iitc';
-plugin_info.dateTimeVersion = '20170108.21732';
+plugin_info.buildName = 'dronerange';
+plugin_info.dateTimeVersion = '20200608000000';
 plugin_info.pluginId = 'DroneRange';
 //END PLUGIN AUTHORS NOTE
 
